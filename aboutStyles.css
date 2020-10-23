@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: peachpuff;
+  color: deeppink;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutme, .my-hobbies, .jobs {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  background: blanchedalmond;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+ 
+.jobs:hover {
+  border-color: rgb(133, 178, 184);
+  }
+
+.my-hobbies:hover {
+  border-color: rgb(133, 178, 184);
+}
+
+.aboutme:hover {
+  border-color: rgb(133, 178, 184);
+  }
+
+  @media (max-width:677px) {
+    ul {
+      flex-direction: column;
+    }
+  }
